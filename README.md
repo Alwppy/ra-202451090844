@@ -1,4 +1,4 @@
-# RA 202451090844 — Fabício Gabriel Fernandes de Azevedo
+# RA 202451090844 — Fabrício Gabriel Fernandes de Azevedo
 
 Repositório de exercícios práticos das disciplinas cursadas em **2026.2**.
 
