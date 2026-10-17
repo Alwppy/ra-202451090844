@@ -10,7 +10,7 @@ function App() {
 
   return(
     <>
-      <h1>Olá, {nome}!</h1>
+      <h1 className="titulo">Olá, {nome}!</h1>
       <p>Em {ano + 1} eu já vou saber React.</p>
       <p>Seu nome gritado: {nome.toUpperCase()}</p>
     </>
