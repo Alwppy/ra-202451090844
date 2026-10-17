@@ -1,6 +1,7 @@
   import './App.css'
 
 import Saudacao from './components/Saudacao';
+import CartaoPerfil from './components/CartaoPerfil';
 
 function App() {
   const nome = "Fabricio";
@@ -14,7 +15,10 @@ function App() {
       <Saudacao nome="Fabricio "/>
       <Saudacao nome="Bárbara "/>
       <Saudacao nome="Vitória "/>
-      <Saudacao />
+      
+      <CartaoPerfil nome="Fabricio" emoji=":)" curso="Programação Web"/>
+      <CartaoPerfil nome="Bárbara" emoji=":D" curso="Design Thinking"/>
+      <CartaoPerfil nome="Vitória" emoji=":|" curso="Inteligência Artificial"/>
     </>
 
   );
