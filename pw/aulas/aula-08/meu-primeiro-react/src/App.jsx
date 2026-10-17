@@ -1,12 +1,6 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+  import './App.css'
 
-function Saudacao(props) {
-  return<p>Olá, {props.nome}seja bem-vindo(a)!</p>;
-}
+import Saudacao from './components/Saudacao';
 
 function App() {
   const nome = "Fabricio";
@@ -20,6 +14,7 @@ function App() {
       <Saudacao nome="Fabricio "/>
       <Saudacao nome="Bárbara "/>
       <Saudacao nome="Vitória "/>
+      <Saudacao />
     </>
 
   );
