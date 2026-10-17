@@ -4,8 +4,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
-function Saudacao() {
-  return<p>Olá, seja bem-vindo(a)!</p>;
+function Saudacao(props) {
+  return<p>Olá, {props.nome}seja bem-vindo(a)!</p>;
 }
 
 function App() {
@@ -17,10 +17,11 @@ function App() {
       <h1 className="titulo">Olá, {nome}!</h1>
       <p>Em {ano + 1} eu já vou saber React.</p>
       <p>Seu nome gritado: {nome.toUpperCase()}</p>
-      <Saudacao />
-      <Saudacao />
-      <Saudacao />
+      <Saudacao nome="Fabricio "/>
+      <Saudacao nome="Bárbara "/>
+      <Saudacao nome="Vitória "/>
     </>
+
   );
 }
 
